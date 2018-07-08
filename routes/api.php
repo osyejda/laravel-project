@@ -19,5 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::get('/osyed',function(){
-	return 'Osyed is the owner of this server :-) ';
+	return 'Osyed is the owner might be out of snapgroup :-( ';
 });
